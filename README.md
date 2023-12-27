@@ -7,8 +7,6 @@
 3. install packages from [rpmfusion](https://rpmfusion.org/Howto/NVIDIA)
 4. reboot
 
-following commands can help you check the status of the driver installation
-
 monitor if akmod is running on background usually it takes 5-10 minutes
 
     watch 'ps ax|grep kmod'
