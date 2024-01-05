@@ -147,19 +147,15 @@ a:focus {
 </ol>
 <p>here is some useful command for check the installation process</p>
 <p>monitoring if akmod is running in the background, it usually takes 5-10 minutes</p>
-<pre><code>watch 'ps ax|grep kmod'
-</code></pre>
-<p>force akmod to run</p>
-<pre><code>sudo akmods --force
-sudo dracut --force
-</code></pre>
-<p>check if nvidia is successfully installed</p>
-<pre><code>nvidia-smi
-</code></pre>
-<h3 id="apps-that-i-use">Apps That I Use</h3>
-<pre><code>sudo dnf install gnome-extensions-app gnome-shell-extension-dash-to-dock telegram-desktop transmission qt-creator scrcpy
-</code></pre>
-<ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>    watch <span style="color:#e6db74">&#39;ps ax|grep kmod&#39;</span>
+</span></span></code></pre></div><p>force akmod to run</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>    sudo akmods --force
+</span></span><span style="display:flex;"><span>    sudo dracut --force
+</span></span></code></pre></div><p>check if nvidia is successfully installed</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>    nvidia-smi
+</span></span></code></pre></div><h3 id="apps-that-i-use">Apps That I Use</h3>
+<pre tabindex="0"><code>    sudo dnf install gnome-extensions-app gnome-shell-extension-dash-to-dock telegram-desktop transmission qt-creator scrcpy
+</code></pre><ul>
 <li><a href="https://www.videolan.org/vlc">VLC</a></li>
 <li><a href="https://vscodium.com">VSCodium</a> (clangd, codelldb)</li>
 <li><a href="https://github.com/conda-forge/miniforge">Mambaforge</a></li>
