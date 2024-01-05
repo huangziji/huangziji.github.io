@@ -13,8 +13,11 @@
       <pubDate>Sat, 06 Jan 2024 03:38:49 +0800</pubDate>
       
       <guid>https://huangziji.github.io/posts/helloworld/</guid>
-      <description>this is a new post
-#include &amp;lt;stdio.h&amp;gt;int main() {  printf(&amp;#34;Hello, World.\n&amp;#34;); } </description>
+      <description>Greeting, here is how I set up my working environment on Fedora
+Install NVIDIA Driver on Fedora  update kernel reboot and switch to updated kernel install packages from rpmfusion reboot  here is some useful command for check the installation process
+monitoring if akmod is running in the background, it usually takes 5-10 minutes
+watch &#39;ps ax|grep kmod&#39;  force akmod to run
+sudo akmods --force sudo dracut --force  check if nvidia is successfully installed</description>
     </item>
     
   </channel>
