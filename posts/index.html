@@ -1,171 +1,250 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en-us">
 
 <head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  
-  <meta name="generator" content="Hugo 0.93.3" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Posts | My New Hugo Site</title>
+<meta name="title" content="Posts" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
 
-  
 
-  
-  <link rel="apple-touch-icon" sizes="180x180" href="https://huangziji.github.io/apple-touch-icon.png">
+<meta property="og:title" content="Posts" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://huangziji.github.io/posts/" />
 
-  
-  <link rel="icon" type="image/png" sizes="32x32" href="https://huangziji.github.io/favicon-32x32.png">
 
-  
-  <link rel="icon" type="image/png" sizes="16x16" href="https://huangziji.github.io/favicon-16x16.png">
 
-  
-  <link rel="manifest" href="https://huangziji.github.io/site.webmanifest">
 
-  
-  <link rel="mask-icon" href="https://huangziji.github.io/safari-pinned-tab.svg" color="">
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Posts"/>
+<meta name="twitter:description" content=""/>
 
-  <meta name="msapplication-TileColor" content="">
 
-  <meta name="theme-color" content="">
 
-  
-  <link rel="stylesheet" href="https://huangziji.github.io/css/bootstrap.min.css" />
+<meta itemprop="name" content="Posts">
+<meta itemprop="description" content="">
+<meta name="referrer" content="no-referrer-when-downgrade" />
 
-  
-  <title>Posts | Zijis Blog</title>
-  
-
+  <link rel="alternate" type="application/rss+xml" href="https://huangziji.github.io/posts/index.xml" title="My New Hugo Site" />
   <style>
-body {
-  min-width: 300px;
-}
-
-.custom-navbar {
-  margin-bottom: 1em;
-  height: 60px;
-}
-
-.custom-navbar a {
-  display: inline-block; 
-  padding: 18px 0;
-  margin-right: 1em; 
-  font-weight: bold; 
-}
-
-.custom-navbar a:hover,
-.custom-navbar a:focus {
-  text-decoration: none; 
-}
-
-@media print {
-  .custom-navbar {
-    display: none;
+  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
   }
-}
 
-article {
-  padding-bottom: 1em;
-}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
 
-img {
-  max-width: 100%;
-}
+  a {
+    color: #3273dc;
+     
+  }
 
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
 
-body {
-  background-color: #fff;
-}
+  .title span {
+    font-weight: 400;
+  }
 
+  nav a {
+    margin-right: 10px;
+  }
 
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
 
-body {
-  color: #212529;
-}
+  input {
+    font-size: 16px;
+  }
 
+  content {
+    line-height: 1.6;
+  }
 
+  table {
+    width: 100%;
+  }
 
-a {
-  color: #007bff;
-}
+  img {
+    max-width: 100%;
+  }
 
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
 
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+    overflow-x: auto;
+  }
 
-a:hover,
-a:focus {
-  color: #0056b3;
-}
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
 
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
 
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
 
-.custom-navbar {
-  background-color: #212529;
-}
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
 
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
 
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
 
-.custom-navbar a {
-  color: rgba(255,255,255,.75);
-}
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
 
+  ul.blog-posts li {
+    display: flex;
+  }
 
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
 
-.custom-navbar a:hover,
-.custom-navbar a:focus {
-  color: rgba(255,255,255,1);
-}
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
 
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
 
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
 
-.container {
-  max-width: 800px;
-}
+    a {
+      color: #8cc2dd;
+    }
 
+    code {
+      background-color: #777;
+    }
 
+    pre code {
+      color: #ddd;
+    }
 
+    blockquote {
+      color: #ccc;
+    }
 
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
 
 </style>
+
 </head>
 
 <body>
-  <nav class="custom-navbar">
-  <div class="container">
-    
-    <a href="/">Posts</a>
-    
-    <a href="/projects/">Projects</a>
-    
-    <a href="/about/">About</a>
-    
-  </div>
+  <header><a href="/" class="title">
+  <h2>My New Hugo Site</h2>
+</a>
+<nav><a href="/">Home</a>
+
+
 </nav>
+</header>
+  <main>
+<content>
   
-  <div class="container">
-    <article>
-      <h1>Posts</h1>
-
-
-
-  <p>
-    <a href="https://huangziji.github.io/posts/helloworld/">Hello World</a>
+  <ul class="blog-posts">
     
+    <li>
+      <span>
+        <i>
+          <time datetime='2024-02-05' pubdate>
+            05 Feb, 2024
+          </time>
+        </i>
+      </span>
+      <a href="https://huangziji.github.io/posts/post/">Post</a>
+    </li>
     
-    <br>
-    <small class="text-secondary">January 6, 2024</small>
+  </ul>
+  
+    <small>
+      <div>
+        
+      </div>
+    </small>
     
+</content>
+
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
     
-  </p>
-
-    </article>
-  </div>
-
-  
-  
-  
-
-  
-
-  
 </body>
 
 </html>
